@@ -99,9 +99,4 @@ class StackOverflow(webdriver.Chrome):
         #     print(text)
         #     print(code)
 
-    def create_df(self):
-        df = pd.DataFrame({'Question': pd.Series(dtype='str'),
-                           'Question_Code': pd.Series(dtype='str'),
-                           'Answer': pd.Series(dtype='str'),
-                           'Answer_code': pd.Series(dtype='str')})
-        return df
+
